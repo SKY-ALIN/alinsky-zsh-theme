@@ -1,14 +1,12 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
 # My daily theme for zsh shell
 
 ![Demo](demo.png)
 
 | Feature               | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
-| <i class="fab fa-git"></i> **Git** | Branch status with visual indicators for modified/untracked files                            |
-| ⏱ **Performance**     | Execution time tracking (only >1s commands) in purple segment                                |
-| <i class="fas fa-clock"></i> **Clock** | Context-aware timestamps:<br>- Prompt: render time<br>- Post-command: execution start time   |
+| **Git** | Branch status with visual indicators for modified/untracked files                            |
+| **Timer**     | Execution time tracking (only >1s commands) in purple segment                                |
+| **Timestamp** | Right prompt shows exact command start time (when you press Enter), not initial render time — perfect for activity logs |
 
 ## Installation:
 
