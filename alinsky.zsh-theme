@@ -28,7 +28,9 @@ function git_prompt() {
 }
 
 function time_prompt() {
-  prompt_segment_right blue default "%D{%H:%M}"
+  local time_format="%D{%H:%M}"
+  [[ -n "$CMD_DURATION" ]] && time_format+=" "
+  prompt_segment_right blue default "$time_format"
 }
 
 function duration_prompt() {
