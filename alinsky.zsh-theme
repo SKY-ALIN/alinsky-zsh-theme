@@ -1,3 +1,10 @@
+# NOTICE: This code is part of alinsky-zsh-theme.  
+# Any modifications must remain open-source under GPL-3.0  
+# and retain this copyright notice.
+#
+# alinsky-zsh-theme - Custom ZSH theme
+# Copyright (C) 2025 Vladimir Alinsky (github.com/SKY-ALIN)
+
 setopt prompt_subst
 
 typeset -g CURRENT_BG='NONE'

@@ -1,5 +1,12 @@
 #!/bin/zsh
 
+# NOTICE: This code is part of alinsky-zsh-theme.  
+# Any modifications must remain open-source under GPL-3.0  
+# and retain this copyright notice.
+#
+# alinsky-zsh-theme - Custom ZSH theme
+# Copyright (C) 2025 Vladimir Alinsky (github.com/SKY-ALIN)
+
 if [[ -z "$ZSH_CUSTOM" ]]; then
     ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
 fi
