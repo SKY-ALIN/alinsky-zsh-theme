@@ -1,15 +1,15 @@
 #!/bin/zsh
 
-# NOTICE: This code is part of alinsky-zsh-theme.  
+# NOTICE: This code is part of github.com/SKY-ALIN/zsh-theme.  
 # Any modifications must remain open-source under GPL-3.0  
 # and retain this copyright notice.
 #
-# alinsky-zsh-theme - Custom ZSH theme
+# github.com/SKY-ALIN/zsh-theme - Custom ZSH theme
 # Copyright (C) 2025 Vladimir Alinsky (github.com/SKY-ALIN)
 
 set -e
 
-THEME_URL='https://raw.githubusercontent.com/SKY-ALIN/alinsky-zsh-theme/main/alinsky.zsh-theme'
+THEME_URL='https://raw.githubusercontent.com/SKY-ALIN/zsh-theme/main/alinsky.zsh-theme'
 THEME_NAME='alinsky.zsh-theme'
 
 function get_downloader() {
