@@ -12,7 +12,6 @@ if [[ ! -d "$THEMES_DIR" ]]; then
 fi
 
 cp ./alinsky.zsh-theme "$THEMES_DIR/"
-source "$HOME/.zshrc"
 
 if [[ $? -eq 0 ]]; then
     echo "Theme installed into $THEMES_DIR"
@@ -20,3 +19,5 @@ else
     echo "Unexpected error"
     exit 1
 fi
+
+source "$HOME/.zshrc"
